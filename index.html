@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <form action="form-handing-url" method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first-name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last-name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email-adress">
+            </div>
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="student">Student</option>
+                    <option value="instructor">Instructor</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+            <div>
+                <p>Choose your favorite programming language.</p>
+                <div>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html" value="html">
+                </div>
+                <div>
+                    <label for="css">CSS</label>
+                    <input type="radio" id="css" value="css">
+                </div>
+                <div>
+                    <label for="javascript">Javascript</label>
+                    <input type="radio" id="javascript" value="javascript">
+                </div>
+            </div>
+            <div>
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments">
+                </textarea>
+            </div>
+            <div>
+                <div>
+                    <label for="newsletter">Sign up for newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+                <div>
+                    <label for="terms">Agree for terms and conditions.</label>
+                    <input type="checkbox" id="terms" name="terms">
+                </div>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+
+
+
+        </fieldset>
+    </form>
+</html>
